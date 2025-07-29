@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy
 tensorflow==2.15.0
-pickle
 ipykernel
 matplotlib
 scikit-learn
