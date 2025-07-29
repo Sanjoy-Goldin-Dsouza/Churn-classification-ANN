@@ -45,7 +45,7 @@ test_df=pd.concat([input_data.drop(['Geography'],axis=1),one_hot_geo_df],axis=1)
 test_df=standard.transform(test_df)
 
 #load model
-model=tf.keras.models.load_model('model.h5')
+model=tf.keras.models.load_model('model.keras')
 
 predict_value=model.predict(test_df)
 
