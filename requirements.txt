@@ -1,7 +1,8 @@
 streamlit
 pandas
 numpy
-tensorflow==2.15.0
+tensorflow==2.12.0
+keras==2.12.0
 ipykernel
 matplotlib
 scikit-learn
