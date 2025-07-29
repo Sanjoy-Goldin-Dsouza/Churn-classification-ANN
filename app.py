@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 from sklearn.preprocessing import OneHotEncoder,LabelEncoder,StandardScaler
 import tensorflow as tf
+from keras.saving.legacy.saved_model import load_model
 
 st.title('Customer Churn Prediction')
 
